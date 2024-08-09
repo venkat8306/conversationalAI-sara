@@ -2422,3 +2422,7 @@ class TestconversationalAI-saraFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
