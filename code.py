@@ -125,6 +125,7 @@
 """Code for repo: conversationalAI-sara. This code handles core operations."""
 """Code for repo: conversationalAI-sara. This code handles core operations."""
 """Code for repo: conversationalAI-sara. This code handles core operations."""
+"""Code for repo: conversationalAI-sara. This code handles core operations."""
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QTextEdit, QFileDialog
 from PyQt5.QtCore import Qt
@@ -1295,6 +1296,10 @@ except Exception as e:
     print(f'Error processing data: {e}')
 # Optimized loop for performance
 data.sort()  # Example of improving code efficiency.
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
 try:
     process_data()
 except Exception as e:
