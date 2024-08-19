@@ -1944,3 +1944,7 @@ except Exception as e:
     print(f'Error processing data: {e}')
 # Optimized loop for performance
 data.sort()  # Example of improving code efficiency.
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
