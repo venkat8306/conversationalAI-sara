@@ -1843,3 +1843,7 @@ try:
     process_data()
 except Exception as e:
     print(f'Error processing data: {e}')
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
