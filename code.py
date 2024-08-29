@@ -87,6 +87,7 @@
 """Code for repo: conversationalAI-sara. This code handles core operations."""
 """Code for repo: conversationalAI-sara. This code handles core operations."""
 """Code for repo: conversationalAI-sara. This code handles core operations."""
+"""Code for repo: conversationalAI-sara. This code handles core operations."""
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QTextEdit, QFileDialog
 from PyQt5.QtCore import Qt
@@ -926,6 +927,13 @@ try:
     process_data()
 except Exception as e:
     print(f'Error processing data: {e}')
+import unittest
+class TestconversationalAI-saraFunctions(unittest.TestCase):
+    def test_example_function(self):
+        self.assertEqual(example_function(), expected_result)
+
+if __name__ == '__main__':
+    unittest.main()
 import unittest
 class TestconversationalAI-saraFunctions(unittest.TestCase):
     def test_example_function(self):
