@@ -102,6 +102,7 @@
 """Code for repo: conversationalAI-sara. This code handles core operations."""
 """Code for repo: conversationalAI-sara. This code handles core operations."""
 """Code for repo: conversationalAI-sara. This code handles core operations."""
+"""Code for repo: conversationalAI-sara. This code handles core operations."""
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QTextEdit, QFileDialog
 from PyQt5.QtCore import Qt
@@ -1083,3 +1084,7 @@ class TestconversationalAI-saraFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
